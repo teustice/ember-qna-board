@@ -1,3 +1,30 @@
+## Planning
+
+1. Configuration/dependencies
+  * ember-bootstrap
+  * emberfire (firebase)
+
+2. Specs
+  * Spec 1: User inputs a question, the question is appended to '/'
+  * Spec 2: User may type a response to a question, the answer should append to a specific questions page
+
+3. Integration
+  * Initial routes or index pages with all dependencies in Controller/index.html head
+  * Components for 'new-question', and 'question-tile'
+  * Template for question route
+  * Components for 'edit-question', 'new-answer', and 'answer-tile'
+  * Integrate feature that allows for up and down voting answers
+
+4. UX/UI
+  * Include and modify bootstrap/materialize/Sass
+  * Add Navbar throughout the site
+
+5. Polish
+  * Delete unused code
+  * Make README awesome
+
+
+<!-- -----------------DELETE PLANNING SECTION UPON COMPLETION------------- -->
 # tech-qna-board
 
 This README outlines the details of collaborating on this Ember application.
