@@ -1,2 +1,6 @@
 <h1>Have a tech related question?</h1>
 <h3>Post it below!</h3>
+<hr>
+{{#each model as |question|}}
+  {{question-tile question=question}}
+{{/each}}
