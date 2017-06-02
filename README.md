@@ -1,34 +1,8 @@
-## Planning
+# Tech QnA Board
 
-1. Configuration/dependencies
-  * ember-bootstrap
-  * emberfire (firebase)
+This application is a simple question and answer board, built using the ember-cli.
 
-2. Specs
-  * Spec 1: User inputs a question, the question is appended to '/'
-  * Spec 2: User may type a response to a question, the answer should append to a specific questions page
-
-3. Integration
-  * Initial routes or index pages with all dependencies in Controller/index.html head
-  * Components for 'new-question', and 'question-tile'
-  * Template for question route
-  * Components for 'edit-question', 'new-answer', and 'answer-tile'
-  * Integrate feature that allows for up and down voting answers
-
-4. UX/UI
-  * Include and modify bootstrap/materialize/Sass
-  * Add Navbar throughout the site
-
-5. Polish
-  * Delete unused code
-  * Make README awesome
-
-
-<!-- -----------------DELETE PLANNING SECTION UPON COMPLETION------------- -->
-# tech-qna-board
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+![alt text](https://github.com/teustice/ember-qna-board/blob/master/Screen%20Shot%202017-06-02%20at%2012.57.42%20PM.png?raw=true)
 
 ## Prerequisites
 
@@ -41,7 +15,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/teustice/ember-qna-board.git`
 * `cd tech-qna-board`
 * `npm install`
 
@@ -50,23 +24,10 @@ You will need the following things properly installed on your computer.
 * `ember serve`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
 
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
 ### Building
 
 * `ember build` (development)
 * `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
 
 ## Further Reading / Useful Links
 
@@ -75,3 +36,7 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+
+## License
+* _MIT_
+* Copyright 2017, by Tanner Eustice
