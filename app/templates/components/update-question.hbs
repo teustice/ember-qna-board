@@ -1,0 +1,11 @@
+{{#if updateForm}}
+<form>
+  {{input value=model.author id="author" placeholder=model.author}}
+  {{input value=model.question id="question" placeholder=model.question}}
+  {{input value=model.notes id="notes" placeholder=model.notes}}
+
+  <button class="btn btn-default" {{action 'updateQuestion' model}}>Update question</button>
+</form>
+{{else}}
+  <button class="btn btn-default" {{action 'updateFormShow'}}>Edit</button>
+{{/if}}
