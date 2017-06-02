@@ -1,3 +1,10 @@
 <h3>{{model.question}}</h3>
 <h5>{{model.notes}}</h5>
 <h5><em>~{{model.author}}</em></h5>
+<hr>
+<h3>Answers:</h3>
+{{new-answer saveAnswer='saveAnswer' question=model}}
+
+{{#each model.answers as |answer|}}
+  {{answer-tile answer=answer}}
+{{/each}}

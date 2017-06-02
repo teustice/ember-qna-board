@@ -1,0 +1,14 @@
+{{#if answerForm}}
+  <h3>Enter your answer Below:</h3>
+  <form>
+    <label for="author">Name:</label>
+    {{input value=author id="author"}}
+
+    <label for="answer">What is your answer?:</label>
+    {{input value=answer id="answer"}}
+
+    <button class="btn btn-default" {{action 'saveAnswer'}}>Post answer</button>
+  </form>
+{{else}}
+  <button class="btn btn-default" {{action 'answerFormShow'}}>Do you have an answer?</button>
+{{/if}}
