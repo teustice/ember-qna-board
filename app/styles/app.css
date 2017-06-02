@@ -1,0 +1,21 @@
+.navi {
+  padding: 0;
+  padding-top: 10px;
+}
+
+#nav-title {
+  margin: 0;
+}
+
+.nav-right {
+  float: right;
+  margin-top: -45px;
+}
+
+a {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
