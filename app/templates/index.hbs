@@ -1,10 +1,6 @@
-<h1>Have a tech related question?</h1>
-<h3>Post it below!</h3>
+<h1>Need some help?</h1>
+{{new-question saveQuestion='saveQuestion'}}
 <hr>
 {{#each model as |question|}}
-  {{#link-to 'question' question.id}}
-    {{question-tile question=question}}
-  {{/link-to}}
+  {{question-tile question=question}}
 {{/each}}
-
-{{new-question saveQuestion='saveQuestion'}}

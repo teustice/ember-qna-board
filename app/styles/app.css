@@ -1,3 +1,12 @@
+.unstyled-link {
+  text-decoration: none;
+}
+
+.unstyled-link:hover {
+  text-decoration: none;
+  color: grey;
+}
+
 .navi {
   padding: 0;
   padding-top: 10px;
@@ -12,10 +21,14 @@
   margin-top: -45px;
 }
 
-a {
+a{
   color: grey;
 }
 
-a:hover {
-  color: black;
+a:hover{
+  text-decoration: none;
+}
+
+.well-pop:hover {
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.15);
 }

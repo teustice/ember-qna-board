@@ -1,6 +1,6 @@
-<hr>
 {{#if questionForm}}
-  <h3>Enter your question Below:</h3>
+<hr>
+  <h3>Ask a question:</h3>
   <form>
     <label for="author">Name:</label>
     {{input value=author id="author"}}
@@ -14,5 +14,5 @@
     <button class="btn btn-default" {{action 'saveQuestion'}}>Post question</button>
   </form>
 {{else}}
-  <button class="btn btn-default" {{action 'questionFormShow'}}>Have a question?</button>
+  <button class="btn btn-default" {{action 'questionFormShow'}}>Post it below</button>
 {{/if}}
