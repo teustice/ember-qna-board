@@ -1,0 +1,14 @@
+{ "questions": [{
+    "question": "Why does my laptop smell weird?",
+    "author": "Little Jimmy",
+    "notes": "Who knows why it smells as it does. It's probably just been in my dirty clothes pile for too long!"
+  },{
+    "question": "My semicolon key is missing. Any recommendations?",
+    "author": "Tina Kanston",
+    "notes": "How am I supposed to code without it?"
+  },{
+    "question": "I'm a humble potatoe farmer, and I can't get my potatoes to print 'hello world'!",
+    "author": "Dan the Farmer",
+    "notes": "I have double checked my code, but these taters just won't compute!"
+  }
+]}
